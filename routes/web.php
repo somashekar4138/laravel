@@ -28,3 +28,9 @@ Route::get('/parawd/{data}',function($data){
 Route::get('/parawdef/{data?}',function($data="Praneeth"){
     return view("def",["data"=>$data]);
 });
+Route::get('/view',function($data){
+    return view('welcome');
+});
+
+
+
